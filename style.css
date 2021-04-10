@@ -5,12 +5,41 @@
     width: 100%;
     
 }
-
+.profile-pic>* {
+    border-radius: 50%;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -webkit-user-drag: none;
+}
 .top-bar{
     background-color: rgb(0, 204, 255);
     width: 100%
     
 }
-.text{
+img.logo{
+    text-align: center;
+}
+img.profile-pic{
     font-family: 'Montserrat', sans-serif;
 }
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.navbar-element > *{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navbar-element{
+    float: left;
+}
+ 
