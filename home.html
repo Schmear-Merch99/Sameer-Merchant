@@ -10,49 +10,46 @@
         <meta name="keywords" content="Tutoring, Merchant,Pennsylvania, Sameer,Merchant,Tutoring,Lehigh,Private,Group">
         <link rel= "stylesheet" href = "style.css">
         <link rel="icon" href="images/SameerPic.jpg">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     </head>
     <body>
         <section class = "top">
-            <div id = "navbar">
-                <nav>
-                  <ul class = "navbar-list">
-                      <li class = "navbar-element"><a href="home.html">Home</a></li>
-                      <li class = "navbar-element"><a href="contact.html">Contact</a></li>
-                      <li class = "navbar-element"><a href="about.html">About Me</a></li>
-                      <li class = "navbar-element"><a href="pricing.html">Pricing</a></li>
-                      <li class = "navbar-element"><a href="blog.html">Blog</a></li>
-                  </ul>
-                </nav>
-              </div>
+            <div id="nav-placeholder">
+
+            </div>
+            <script>
+                $(function(){
+                  $("#nav-placeholder").load("navbar.html");
+                });
+            </script>
             
             <div class = "top-content">
-                
+                <div class = "logo">
+                    <h1>Merchant Math Tutoring </h1>
+                </div>
+                <div class = "profile-pic">
+                    <img src="images/SameerPic.jpg" width = "250" height = "250">
+                </div>
             </div>
-            
-            
-        </section>
-        <div class = "logo">
-            <img src="images/TutoringMerchant.jpg" width = "250" height = "250">
-        </div>
-        
-        <div class= "text">    
+        </section>  
+        <div class= "home-text">    
             <div class="my-story">
                 <h2>My Story</h2>
                 <p>
-                    In 10th grade, I started tutoring students in math for free through my high school’s math club and at Kumon as a grader. One day, a student came to my tutoring session and I was going over graphing sine and cosine with him and how to do that. I quickly realized he did not know anything about the unit circle, which is important for graphing these functions without a calculator. I went over the unit circle with him and he quickly understood how to graph the two functions. This made tutoring much easier as we went over subsequent topics.
+                    In 10th grade, I started tutoring students in math for free through my high school’s math club and at Kumon as a grader. One day, a student came to my tutoring session and I was going over graphing sine and cosine. I quickly realized he did not know anything about the unit circle, which is important for graphing these functions without a calculator. I went over the unit circle with him and he quickly understood how to graph the two functions. This made tutoring much easier as we went over subsequent topics.                
                 </p>
                 <p>
-                    As I went through college as an engineering student at Lehigh University, I realized that the problems that students had with math earlier made their time at college much more difficult. Students who had not taken any sort of calculus in high school found themselves struggling in “weed out” introduction math classes. Because of this, I became a tutor and teaching assistant at my university amidst the pandemic.
+                    As I went through college as an engineering student at Lehigh University, I noticed a similar problem that I saw before where the problems that students had with math earlier made their time at college much more difficult. Moreover, students who had not taken any sort of calculus in high school found themselves struggling in “weed out” introductory math classes. I found myself helping students in college with math because of this and eventually became a tutor for my college. My experiences with tutoring led me to create Merchant Math Tutoring.                
                 </p>
-                <p>
-                    Since college is online for most students, I tutored students using a writing tablet that was provided to me by my university. I felt a sense of enjoyment in my tutoring sessions, so The Tutoring Merchant was born.
-                </p>
+                
             </div>
             <div class="why-choose-me">
                 <h2>Why choose me?</h2>
                 <p>
-                    One thing that would differentiate me from other tutors is I talk about the applications of some of the topics, not just the material itself. It is my belief that learning about why the material being taught is so important creates more passion in the student to learn more. In the past, I have worked as a tutor and a teaching assistant for many classes including Computer Architecture, Systems Software, and Linear methods and from those experiences, I have learned about the best strategies for teaching students the material.
+                    In the past, I have worked as a tutor and a teaching assistant for many classes including Computer Architecture, Systems Software, Linear Methods (a class on differential equations and linear algebra), and Principles of Electrical Engineering. From these experiences, I have learned about the best strategies for teaching students the material. Moreover, I am a firm believer of the idea that the purpose of a tutor is to get the student to a point where I am not necessary. In other words, I teach the student problem solving skills that students do not learn in school.                
                 </p>
             </div>
             <div class="what-do-I-tutor">
@@ -62,6 +59,13 @@
                 </p>
             </div>
         </div>
-    
+        <div id="footer-placeholder">
+
+        </div>
+        <script>
+            $(function(){
+              $("#footer-placeholder").load("footer.html");
+            });
+        </script>
     </body>
 </html>

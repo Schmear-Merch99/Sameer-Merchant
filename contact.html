@@ -10,23 +10,24 @@
     <link rel= "stylesheet" href = "style.css">
     <link rel="icon" href="images/SameerPic.jpg">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
   <section class = "top">
-    <div id = "navbar">
-      <nav>
-        <ul class = "navbar-list">
-            <li class = "navbar-element"><a href="home.html">Home</a></li>
-            <li class = "navbar-element"><a href="contact.html">Contact</a></li>
-            <li class = "navbar-element"><a href="about.html">About Me</a></li>
-            <li class = "navbar-element"><a href="pricing.html">Pricing</a></li>
-            <li class = "navbar-element"><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
+    <div id="nav-placeholder">
+
     </div>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
     <div class = "top-content">
-        
+      <h1>Contact</h1>
+    </div>
+    <div class = "body">
+      <p>Phone Number: 2678857005</p>
     </div>
   </section>
-
+  
 </body>

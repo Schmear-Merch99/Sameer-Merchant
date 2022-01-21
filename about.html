@@ -13,24 +13,27 @@
 </head>
 <body>
   <section class = "top">
-    <div id = "navbar">
-      <nav>
-        <ul class = "navbar-list">
-          <li class = "navbar-element"><a href="home.html">Home</a></li>
-          <li class = "navbar-element"><a href="contact.html">Contact</a></li>
-          <li class = "navbar-element"><a href="about.html">About Me</a></li>
-          <li class = "navbar-element"><a href="pricing.html">Pricing</a></li>
-          <li class = "navbar-element"><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
-    </div>
+    <div id="nav-placeholder">
 
-    <div class = "top-content">
-        
     </div>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
+    <div class = "about-me-text">
+      <h2>About Me</h2>
+      <p>I’d describe myself as a lifelong learner who has seen different learning methods and found what works for me. I was not always this way, and in fact, it was not until my junior year at Lehigh that I started to love learning. I have been both one of the worst students, and one of the best students in my college classes so I understand how it feels to get a bad grade in a class. That being said, I am in a place in my academic career where my trajectory has generally been upwards as I have started to become more involved on campus while maintaining good grades. I am president of the Institute of Electrical and Electronics Engineers (IEEE) and I was recently inducted in IEEE’s honor society, Eta Kappa Nu (HKN). My hobbies include beatboxing, playing violin, and working out, which are part of my love for learning.</p>
+    </div>
+    
   </section>
-  
-  <div class = "profile-pic">
-    <img src="images/SameerPic.jpg" width = "250" height = "250">
+  <div id="footer-placeholder">
+
   </div>
+  <script>
+      $(function(){
+        $("#footer-placeholder").load("footer.html");
+      });
+  </script>
+  
 </body>
