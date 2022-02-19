@@ -6,12 +6,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     padding: 0;
-    margin:0;
+    margin:10px;
 
 }
-p{
-    margin: 10px;
-}
+
 .logo{
     text-align:center;
 }
