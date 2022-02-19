@@ -6,15 +6,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     padding: 0;
-    
+    margin:0;
+}
 
-}
-p{
-    margin: 10px;
-}
-h{
-    margin: 10px;
-}
 .logo{
     text-align:center;
 }
@@ -41,7 +35,7 @@ img.profile-pic{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: 0;
+    
 }
 .navbar-element > *{
     display: block;
@@ -49,7 +43,6 @@ img.profile-pic{
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    margin: 0;
 }
 
 .navbar-element{
