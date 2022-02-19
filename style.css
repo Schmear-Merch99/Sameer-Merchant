@@ -49,6 +49,7 @@ img.profile-pic{
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    margin: 0;
 }
 
 .navbar-element{
@@ -69,7 +70,7 @@ img.profile-pic{
     display: block;
     color: white;
     text-align: center;
-    /*padding: 16px;*/
+    padding: 16px;
     text-decoration: none;
    
 }
