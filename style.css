@@ -7,8 +7,11 @@ body{
     text-align: left;
     padding: 0;
     margin:0;
-}
 
+}
+p{
+    margin: 10px;
+}
 .logo{
     text-align:center;
 }
