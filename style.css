@@ -79,8 +79,9 @@ img.profile-pic{
     padding: 16px;
     text-decoration: none;
     
+
 }
-/* .footer-placeholder >*{
-    position: relative;
-    padding-top: 100px;
-} */
+.footer-placeholder >*{
+    bottom: 0;
+    position: absolute;
+}
